@@ -1,0 +1,82 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+h1{
+    text-align:center;
+    color:black;
+}
+ol li {
+    background-color: #CFE2FF !important;
+    color: black !important;
+}
+#hebar-image{
+    width:1240px;
+    height:1100px;
+    margin-top:10px;
+    border:1px solid black;
+    border-radius:70px;
+}
+.carousel-item {
+    height: 700px;
+    width: 700px;
+}
+#hebar-team-page {
+    border: 1px solid black;
+    border-radius: 50px;
+    height: 700px;
+    width: 700px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+    #hebar-image {
+        height: auto;
+        width: 400px;
+        border-radius: 0px;
+    }
+    .row{
+        display:flex;
+        flex-direction:column;       
+    }
+    .achievment {
+        width: 100% !important;
+    }
+    .achievment-image {
+        margin-top:10px;
+        width: 400px !important;
+    }
+    .team-div{
+        width:430px;
+    }
+    td{
+        font-size:10px
+    }
+    #hebar-team-page {
+        width: 400px;
+    }
+}
